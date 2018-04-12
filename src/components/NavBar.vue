@@ -40,7 +40,7 @@ export default {
 .nav-bar
   .logo
     //- img.logo-icon(src="/static/logo.png")
-    .title PAY++
+    .title 尽签++
   .nav-items
     ul.menus
       //- li
@@ -58,7 +58,7 @@ export default {
 .nav-bar
   display flex
   height 57px
-  background RGBA(0, 0, 0, 0.9)
+  background #B93D2E
   padding-left 220px
   box-sizing border-box
   border-bottom 1px solid #DADADA
@@ -95,7 +95,7 @@ export default {
           height 56px
           font-size 15px
           line-height 20px
-          color #999c9e
+          color #fff
           cursor pointer
           &:hover
             opacity 0.8

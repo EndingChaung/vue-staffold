@@ -1,8 +1,8 @@
 const Home = r => require.ensure([], () => r(require('./Home.vue')), 'group-home');
 
 export default [{
-  path: '/',
-  name: 'Home',
+  path: '/home',
+  name: 'home',
   component: Home,
   meta: {
     title: '首页',

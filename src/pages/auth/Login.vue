@@ -1,11 +1,12 @@
 <template lang="pug">
 .content
-  h1 首页
+  h1 登录页面
+  .kk iefuewufweuwueu
 </template>
 
 <script>
 export default {
-  name: 'PlayList',
+  name: 'Login',
   data() {
     return {
       records: [],

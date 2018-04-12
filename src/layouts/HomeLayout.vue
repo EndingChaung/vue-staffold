@@ -8,7 +8,9 @@ export default {
   },
   computed: {
     keepAliveInclude() {
-      return [];
+      return [
+        'login__index',
+      ];
     },
     keepAliveExclude() {
       return [];

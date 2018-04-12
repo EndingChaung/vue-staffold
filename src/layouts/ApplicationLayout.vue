@@ -10,7 +10,9 @@ export default {
   },
   computed: {
     keepAliveInclude() {
-      return [];
+      return [
+        'home',
+      ];
     },
     keepAliveExclude() {
       return [];

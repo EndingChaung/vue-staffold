@@ -22,7 +22,11 @@ export default {
   el-button(@click="changeMenu", size="small", v-if="onShow")
     i.el-icon-d-arrow-right(v-if="isCollapse")
     i.el-icon-d-arrow-left(v-else)
-  el-menu.menu(:default-active="$route.path", router, :collapse="isCollapse", :style="{width: isCollapse ? '' : '200px'}")
+  el-menu.menu(
+    :default-active="$route.path",
+    router,
+    :collapse="isCollapse",
+    :style="{width: isCollapse ? '' : '200px'}")
     el-menu-item(index="/overview")
       i.fa.fa-home
       span 应用概览
