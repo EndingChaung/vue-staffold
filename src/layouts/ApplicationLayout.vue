@@ -29,7 +29,7 @@ export default {
   .main-content
     transition
       keep-alive(:include="keepAliveInclude", :exclude="keepAliveExclude")
-        slot
+        router-view
 </template>
 
 <style lang="stylus" scoped>
