@@ -58,7 +58,7 @@ export default {
 .nav-bar
   display flex
   height 57px
-  background #B93D2E
+  background $theme-main-color
   padding-left 220px
   box-sizing border-box
   border-bottom 1px solid #DADADA
